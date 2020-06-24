@@ -85,7 +85,7 @@ function getPlot(id) {
   }  
 
   function getInfo(id) {
-    d3.json("data/Data/samples.json").then((data)=> {
+    d3.json("data/samples.json").then((data)=> {
         
         var metadata = data.metadata;
 
